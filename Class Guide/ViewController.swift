@@ -6,8 +6,8 @@
 //  Copyright © 2018 John Hersey High School. All rights reserved.
 //Charles
 //Yacoub
-// Allen
-// Matthew
+//Allen
+//Matthew
 
 import UIKit
 
