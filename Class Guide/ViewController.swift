@@ -12,7 +12,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var subjectCollection: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,7 +23,23 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func handleSection(_ sender: UIButton) {
+        subjectCollection.forEach { (button) in
+            UIView.animate(withDuration: 0.3, animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+    }
+    
+    
+    
+    @IBAction func subjectTapped(_ sender: UIButton) {
+        guard let title = sender.currentTitle else {
+            return
+    
+        }
+    
 }
-
+}
