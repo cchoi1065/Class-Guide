@@ -4,10 +4,10 @@
 //
 //  Created by Charles Choi on 4/19/18.
 //  Copyright © 2018 John Hersey High School. All rights reserved.
-//Charles
-//Yacoub
-//Allen
-//Matthew
+// Charles
+// Yacoub
+// Allen
+// Matthew
 
 import UIKit
 
