@@ -55,7 +55,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="SEt-Hh-lGc"/>
                                         </constraints>
-                                        <state key="normal" title="Math">
+                                        <state key="normal" title="Fine Arts">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -137,12 +137,12 @@
                                     <constraint firstAttribute="trailing" secondItem="lCR-6U-YyV" secondAttribute="trailing" id="z3e-Sa-ayZ"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2018-04-20 at 11.11.59 AM" translatesAutoresizingMaskIntoConstraints="NO" id="alo-mm-5o0">
-                                <rect key="frame" x="36" y="411" width="302" height="236"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
+                                <rect key="frame" x="16" y="431" width="343" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Hersey High School, District 214" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-H4-gZg">
-                                <rect key="frame" x="42" y="355" width="290" height="21"/>
+                                <rect key="frame" x="42" y="370" width="290" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -227,20 +227,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="8Hd-EJ-UDz">
-                                <rect key="frame" x="134" y="258" width="106" height="150"/>
+                                <rect key="frame" x="134" y="258" width="87" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF9-Xi-4WL">
                                         <rect key="frame" x="0.0" y="0.0" width="87" height="30"/>
-                                        <state key="normal" title="AP Statistics"/>
+                                        <state key="normal" title="Graphic Arts"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I41-Py-bbr">
-                                        <rect key="frame" x="0.0" y="60" width="106" height="30"/>
-                                        <state key="normal" title="AP Calculus AB"/>
+                                        <rect key="frame" x="0.0" y="60" width="73" height="30"/>
+                                        <state key="normal" title="Art Survey"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8K-Aw-NeN">
-                                        <rect key="frame" x="0.0" y="120" width="106" height="30"/>
-                                        <state key="normal" title="AP Calculus BC"/>
+                                        <rect key="frame" x="0.0" y="120" width="69" height="30"/>
+                                        <state key="normal" title="Orchestra"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -359,6 +359,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2018-04-20 at 11.11.59 AM" width="296" height="406"/>
+        <image name="john_hersey_high_school_1" width="1280" height="853"/>
     </resources>
 </document>
