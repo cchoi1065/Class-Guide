@@ -178,43 +178,7 @@
                     <view key="view" contentMode="scaleToFill" id="BrB-3G-aY1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="9cn-FU-k1n">
-                                <rect key="frame" x="90" y="168" width="194" height="330"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jds-TQ-Dqt">
-                                        <rect key="frame" x="0.0" y="0.0" width="194" height="30"/>
-                                        <state key="normal" title="Mobile Apps"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ei-Up-6E4">
-                                        <rect key="frame" x="0.0" y="60" width="194" height="30"/>
-                                        <state key="normal" title="Computrer Science A"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOo-9A-cET">
-                                        <rect key="frame" x="0.0" y="120" width="194" height="30"/>
-                                        <state key="normal" title="Computer Science P"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shm-Xg-yxN">
-                                        <rect key="frame" x="0.0" y="180" width="194" height="30"/>
-                                        <state key="normal" title="A+ Computer Class"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJK-04-Zrg">
-                                        <rect key="frame" x="0.0" y="240" width="194" height="30"/>
-                                        <state key="normal" title="Cisco Networking Essentials"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="79i-yw-ia2">
-                                        <rect key="frame" x="0.0" y="300" width="194" height="30"/>
-                                        <state key="normal" title="CyberSecurity"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FJK-7l-5YZ">
-                                <rect key="frame" x="55" y="519" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.76404207101234034" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="BDc-13-agi"/>
                     </view>
                 </viewController>
@@ -296,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFG-Md-sO8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="816.79999999999995" y="97.601199400299862"/>
+            <point key="canvasLocation" x="1180" y="78"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wGv-S7-i4Z">
@@ -311,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0SY-Y2-cow" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2000.8" y="97.601199400299862"/>
+            <point key="canvasLocation" x="526" y="874"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kui-vP-zi9">
