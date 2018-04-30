@@ -1,4 +1,4 @@
-//
+// Computer 5 good
 //  AppDelegate.swift
 //  Class Guide
 //
