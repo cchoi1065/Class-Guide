@@ -1,6 +1,6 @@
 // Computer 5 good
 // Computer 15 good
-// Computer 6 good
+// Computer 6 good Charles
 //  AppDelegate.swift
 //  Class Guide
 //
