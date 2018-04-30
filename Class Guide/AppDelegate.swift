@@ -1,5 +1,5 @@
 // Computer 5 good
-// Computer 15 good Allen
+// Computer 15 good
 //  AppDelegate.swift
 //  Class Guide
 //
