@@ -1,10 +1,13 @@
 // Computer 5 good
+// Computer 15 good allen
+// Computer 6 good
+// Computer 2 good
 //  AppDelegate.swift
 //  Class Guide
 //
 //  Created by Charles Choi on 4/19/18.
 //  Copyright © 2018 John Hersey High School. All rights reserved.
-//
+//Charles
 
 import UIKit
 
