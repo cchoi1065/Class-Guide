@@ -10,8 +10,8 @@
 		A0F382F02088F65B00E7FF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F382EF2088F65B00E7FF96 /* AppDelegate.swift */; };
 		A0F382F22088F65B00E7FF96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F382F12088F65B00E7FF96 /* ViewController.swift */; };
 		A0F382F52088F65B00E7FF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F382F32088F65B00E7FF96 /* Main.storyboard */; };
-		A0F382F72088F65B00E7FF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F382F62088F65B00E7FF96 /* Assets.xcassets */; };
 		A0F382FA2088F65B00E7FF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F382F82088F65B00E7FF96 /* LaunchScreen.storyboard */; };
+		F611115B20977A0700B3C8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F382F62088F65B00E7FF96 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,7 +91,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "John Hersey High School";
 				TargetAttributes = {
 					A0F382EB2088F65B00E7FF96 = {
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0F382FA2088F65B00E7FF96 /* LaunchScreen.storyboard in Resources */,
-				A0F382F72088F65B00E7FF96 /* Assets.xcassets in Resources */,
+				F611115B20977A0700B3C8AC /* Assets.xcassets in Resources */,
 				A0F382F52088F65B00E7FF96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +177,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +185,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +236,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +244,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,7 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2493DVB6DZ;
+				DEVELOPMENT_TEAM = UKBTAM8H26;
 				INFOPLIST_FILE = "Class Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide";
@@ -290,7 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2493DVB6DZ;
+				DEVELOPMENT_TEAM = UKBTAM8H26;
 				INFOPLIST_FILE = "Class Guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide";
