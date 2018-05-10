@@ -1607,20 +1607,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Health" translatesAutoresizingMaskIntoConstraints="NO" id="HRy-hb-BYv">
-                                <rect key="frame" x="0.0" y="456" width="375" height="211"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Health" translatesAutoresizingMaskIntoConstraints="NO" id="HRy-hb-BYv">
+                                <rect key="frame" x="0.0" y="453" width="375" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Hr1-9z-AcP"/>
+                                    <constraint firstAttribute="height" constant="211" id="dcm-OE-dbM"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z2o-vJ-XeV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="z2o-vJ-XeV">
                                 <rect key="frame" x="57" y="245" width="261" height="177"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="mha-vj-4Zs"/>
+                                    <constraint firstAttribute="width" constant="261" id="oNA-BU-y4H"/>
+                                </constraints>
                                 <string key="text">Further improve your knowledge of the human body and how to take care of your body. Learn proper exercises and health tips to stay strong healthy for as long as you can in life. Learn the substances that can harm you and possibly lead to death. Learning how to diet properly and read food labels for your well being of what you put in your body. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="HRy-hb-BYv" firstAttribute="centerX" secondItem="3HI-bL-kQp" secondAttribute="centerX" id="42J-gq-E9r"/>
+                            <constraint firstItem="z2o-vJ-XeV" firstAttribute="centerX" secondItem="3HI-bL-kQp" secondAttribute="centerX" id="MrZ-92-zAf"/>
+                            <constraint firstItem="z2o-vJ-XeV" firstAttribute="centerY" secondItem="3HI-bL-kQp" secondAttribute="centerY" id="PhD-T9-1ZI"/>
+                            <constraint firstItem="HRy-hb-BYv" firstAttribute="centerY" secondItem="3HI-bL-kQp" secondAttribute="centerY" constant="225" id="opT-ZQ-UJz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="iQZ-B4-2gZ"/>
                     </view>
                 </viewController>
@@ -1636,20 +1648,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Weights" translatesAutoresizingMaskIntoConstraints="NO" id="Wgo-ob-7K9">
-                                <rect key="frame" x="0.0" y="440" width="375" height="227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Weights" translatesAutoresizingMaskIntoConstraints="NO" id="Wgo-ob-7K9">
+                                <rect key="frame" x="0.0" y="445" width="375" height="227"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="227" id="K7W-FY-gUh"/>
+                                    <constraint firstAttribute="width" constant="375" id="Ze9-Xy-crt"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fae-Z4-luV">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fae-Z4-luV">
                                 <rect key="frame" x="64" y="260" width="246" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="246" id="wlj-aB-osm"/>
+                                    <constraint firstAttribute="height" constant="147" id="xqc-B6-jla"/>
+                                </constraints>
                                 <string key="text">You want be to strong, join weights. Condition yourself and improve your health by working out everyday with a few run days every week. Improve your body every day and feel good doing it. Improve and build, you will be successful for whatever is coming to you in the future.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.080762223663329191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fae-Z4-luV" firstAttribute="centerX" secondItem="vWT-Xn-tF6" secondAttribute="centerX" id="QXe-bo-Z1k"/>
+                            <constraint firstItem="Wgo-ob-7K9" firstAttribute="centerY" secondItem="vWT-Xn-tF6" secondAttribute="centerY" constant="225" id="Qct-JM-exs"/>
+                            <constraint firstItem="Wgo-ob-7K9" firstAttribute="centerX" secondItem="vWT-Xn-tF6" secondAttribute="centerX" id="k7L-YY-H1H"/>
+                            <constraint firstItem="fae-Z4-luV" firstAttribute="centerY" secondItem="vWT-Xn-tF6" secondAttribute="centerY" id="n16-GR-T2n"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="y0P-1g-tYU"/>
                     </view>
                 </viewController>
@@ -1665,20 +1689,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gag-M5-LjQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Gag-M5-LjQ">
                                 <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Kdn-tj-lxn"/>
+                                    <constraint firstAttribute="height" constant="128" id="hWF-QA-QrL"/>
+                                </constraints>
                                 <string key="text">Get to experience the feeling of leading a team by applying to this class. During your senior year, after spending your junior year training and passing the Leader’s exam, you get to assist a teacher’s gym class and also lead many activities. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Leaders" translatesAutoresizingMaskIntoConstraints="NO" id="kpv-zO-h2U">
-                                <rect key="frame" x="0.0" y="437" width="375" height="230"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Leaders" translatesAutoresizingMaskIntoConstraints="NO" id="kpv-zO-h2U">
+                                <rect key="frame" x="0.0" y="443.5" width="375" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="lP6-fp-h5p"/>
+                                    <constraint firstAttribute="height" constant="230" id="zNf-jF-8pT"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.044555379001338435" green="0.98807081062679769" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kpv-zO-h2U" firstAttribute="centerX" secondItem="E0U-KV-3HR" secondAttribute="centerX" id="dnM-RB-JXw"/>
+                            <constraint firstItem="kpv-zO-h2U" firstAttribute="centerY" secondItem="E0U-KV-3HR" secondAttribute="centerY" constant="225" id="fIi-v9-jTf"/>
+                            <constraint firstItem="Gag-M5-LjQ" firstAttribute="centerX" secondItem="E0U-KV-3HR" secondAttribute="centerX" id="p2g-gI-jl1"/>
+                            <constraint firstItem="Gag-M5-LjQ" firstAttribute="centerY" secondItem="E0U-KV-3HR" secondAttribute="centerY" id="qcr-MJ-4RD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MVV-oY-K4q"/>
                     </view>
                 </viewController>
@@ -1694,20 +1730,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TU7-YR-aUn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TU7-YR-aUn">
                                 <rect key="frame" x="69" y="244" width="236" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="236" id="E1Q-2D-5KE"/>
+                                    <constraint firstAttribute="height" constant="179" id="YsU-j6-JJZ"/>
+                                </constraints>
                                 <string key="text">Play games everyday to improve your cardiovascular health. Enjoy games that everyone loves during gym class. Four days of games that we enjoy to play and one day to run to further improve your cardio. It is good for people who are very competitive in playing sports. It is fun for anyone if you put your mind to it.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Advanced Activities" translatesAutoresizingMaskIntoConstraints="NO" id="e0d-zC-3F9">
-                                <rect key="frame" x="0.0" y="459" width="375" height="208"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Advanced Activities" translatesAutoresizingMaskIntoConstraints="NO" id="e0d-zC-3F9">
+                                <rect key="frame" x="0.0" y="454.5" width="375" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Xm9-G7-nkF"/>
+                                    <constraint firstAttribute="height" constant="208" id="sf6-7O-6Gf"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.97368682040878118" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TU7-YR-aUn" firstAttribute="centerX" secondItem="L91-u9-sij" secondAttribute="centerX" id="0rS-Ny-MWc"/>
+                            <constraint firstItem="TU7-YR-aUn" firstAttribute="centerY" secondItem="L91-u9-sij" secondAttribute="centerY" id="0wk-8R-Qp8"/>
+                            <constraint firstItem="e0d-zC-3F9" firstAttribute="centerY" secondItem="L91-u9-sij" secondAttribute="centerY" constant="225" id="OE1-cf-sEV"/>
+                            <constraint firstItem="e0d-zC-3F9" firstAttribute="centerX" secondItem="L91-u9-sij" secondAttribute="centerX" id="glS-q4-TTE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Qp-BW-Z22"/>
                     </view>
                 </viewController>
@@ -1723,20 +1771,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dance" translatesAutoresizingMaskIntoConstraints="NO" id="FWs-Qv-Mbd">
-                                <rect key="frame" x="0.0" y="468" width="375" height="199"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Dance" translatesAutoresizingMaskIntoConstraints="NO" id="FWs-Qv-Mbd">
+                                <rect key="frame" x="0.0" y="459" width="375" height="199"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="199" id="4g0-9G-bqg"/>
+                                    <constraint firstAttribute="width" constant="375" id="qHi-3g-zh4"/>
+                                </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="88Y-Uy-Nze">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="88Y-Uy-Nze">
                                 <rect key="frame" x="65" y="250" width="245" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="EbU-MJ-CIP"/>
+                                    <constraint firstAttribute="width" constant="245" id="IxB-D3-vTY"/>
+                                </constraints>
                                 <string key="text">Dance class is good for anyone and improve dancing skills. It is enjoyable and relaxing as you jam to the beat. This class can improve your flexibility and you can challenge yourself on doing more difficult dances. It is a class that you can take your mind off things and maybe relieve a little stress.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.079394028178769616" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="88Y-Uy-Nze" firstAttribute="centerX" secondItem="UJL-Jk-wxk" secondAttribute="centerX" id="2Zq-2p-tgG"/>
+                            <constraint firstItem="88Y-Uy-Nze" firstAttribute="centerY" secondItem="UJL-Jk-wxk" secondAttribute="centerY" id="hGS-BJ-AgC"/>
+                            <constraint firstItem="FWs-Qv-Mbd" firstAttribute="centerX" secondItem="UJL-Jk-wxk" secondAttribute="centerX" id="m0w-Ek-j0g"/>
+                            <constraint firstItem="FWs-Qv-Mbd" firstAttribute="centerY" secondItem="UJL-Jk-wxk" secondAttribute="centerY" constant="225" id="qbY-cU-pBl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="WLR-bt-EQA"/>
                     </view>
                 </viewController>
