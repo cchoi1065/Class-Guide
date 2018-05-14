@@ -208,9 +208,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asL-Jw-USQ">
-                                <rect key="frame" x="139" y="231" width="96" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asL-Jw-USQ">
+                                <rect key="frame" x="139" y="232.5" width="96" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -221,6 +220,7 @@
                             <constraint firstItem="oqe-v4-Gf6" firstAttribute="centerY" secondItem="BRb-P3-ZrC" secondAttribute="centerY" id="6Za-MJ-WLP"/>
                             <constraint firstItem="WxN-Eq-wwZ" firstAttribute="centerX" secondItem="BRb-P3-ZrC" secondAttribute="centerX" id="iLv-gW-bc9"/>
                             <constraint firstItem="WxN-Eq-wwZ" firstAttribute="centerY" secondItem="BRb-P3-ZrC" secondAttribute="centerY" constant="225" id="jYb-Ei-ZDl"/>
+                            <constraint firstItem="oqe-v4-Gf6" firstAttribute="top" secondItem="asL-Jw-USQ" secondAttribute="bottom" constant="16" id="nws-YQ-E98"/>
                             <constraint firstItem="oqe-v4-Gf6" firstAttribute="centerX" secondItem="BRb-P3-ZrC" secondAttribute="centerX" id="sPg-8W-S5s"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hJG-7e-1Qq"/>
@@ -261,9 +261,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvX-rA-Ph7">
-                                <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SvX-rA-Ph7">
+                                <rect key="frame" x="139" y="240.5" width="96" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -275,6 +274,7 @@
                             <constraint firstItem="Nw1-vm-8D5" firstAttribute="centerX" secondItem="0HW-xC-0h8" secondAttribute="centerX" id="2S4-jJ-ArO"/>
                             <constraint firstItem="S5u-KE-pEr" firstAttribute="centerX" secondItem="0HW-xC-0h8" secondAttribute="centerX" id="Icz-aH-Del"/>
                             <constraint firstItem="S5u-KE-pEr" firstAttribute="centerY" secondItem="0HW-xC-0h8" secondAttribute="centerY" constant="225" id="PJG-5m-mzg"/>
+                            <constraint firstItem="Nw1-vm-8D5" firstAttribute="top" secondItem="SvX-rA-Ph7" secondAttribute="bottom" constant="8" id="hwE-LB-Yqu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="g7A-TQ-ftX"/>
                     </view>
@@ -309,9 +309,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3a-QH-p82">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3a-QH-p82">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -323,6 +322,7 @@
                             <constraint firstItem="yV5-jx-QQG" firstAttribute="centerY" secondItem="CZY-li-jE9" secondAttribute="centerY" id="XlU-uq-nRM"/>
                             <constraint firstItem="K1u-JS-Ja4" firstAttribute="centerX" secondItem="CZY-li-jE9" secondAttribute="centerX" id="YtT-K3-bA6"/>
                             <constraint firstItem="yV5-jx-QQG" firstAttribute="centerX" secondItem="CZY-li-jE9" secondAttribute="centerX" id="ve9-Gu-ieu"/>
+                            <constraint firstItem="yV5-jx-QQG" firstAttribute="top" secondItem="W3a-QH-p82" secondAttribute="bottom" constant="8" id="xtW-VM-0jB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9JZ-gt-XIo"/>
                     </view>
@@ -356,9 +356,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWu-cI-FIP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWu-cI-FIP">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -370,6 +369,7 @@
                             <constraint firstItem="V7o-RN-5v8" firstAttribute="centerY" secondItem="6Fn-6w-TkN" secondAttribute="centerY" id="N25-Jk-xzL"/>
                             <constraint firstItem="V7o-RN-5v8" firstAttribute="centerX" secondItem="6Fn-6w-TkN" secondAttribute="centerX" id="tSX-LB-6hS"/>
                             <constraint firstItem="EA7-I7-u8b" firstAttribute="centerX" secondItem="6Fn-6w-TkN" secondAttribute="centerX" id="xcU-r3-sZd"/>
+                            <constraint firstItem="V7o-RN-5v8" firstAttribute="top" secondItem="SWu-cI-FIP" secondAttribute="bottom" constant="8" id="ypP-aM-xlH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7iD-qV-tTm"/>
                     </view>
@@ -404,9 +404,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xE7-cz-2Ah">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xE7-cz-2Ah">
                                 <rect key="frame" x="139" y="234" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -417,6 +416,7 @@
                             <constraint firstItem="eQK-mG-zfI" firstAttribute="centerY" secondItem="zGj-pa-HPK" secondAttribute="centerY" id="ELB-HE-vgP"/>
                             <constraint firstItem="kVV-06-uzy" firstAttribute="centerX" secondItem="zGj-pa-HPK" secondAttribute="centerX" id="RAG-fK-xTv"/>
                             <constraint firstItem="kVV-06-uzy" firstAttribute="centerY" secondItem="zGj-pa-HPK" secondAttribute="centerY" constant="225" id="RP6-ed-5yN"/>
+                            <constraint firstItem="eQK-mG-zfI" firstAttribute="top" secondItem="xE7-cz-2Ah" secondAttribute="bottom" constant="8" id="dFz-Cp-aOk"/>
                             <constraint firstItem="eQK-mG-zfI" firstAttribute="centerX" secondItem="zGj-pa-HPK" secondAttribute="centerX" id="zEP-O8-ESL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eTL-jV-ZR5"/>
@@ -452,9 +452,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSw-xW-GKQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSw-xW-GKQ">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -465,6 +464,7 @@
                             <constraint firstItem="wRk-5H-VZC" firstAttribute="centerX" secondItem="nLK-ZT-6lB" secondAttribute="centerX" id="C0D-im-5jA"/>
                             <constraint firstItem="2KW-Sw-aub" firstAttribute="centerX" secondItem="nLK-ZT-6lB" secondAttribute="centerX" id="G3D-X9-dxa"/>
                             <constraint firstItem="wRk-5H-VZC" firstAttribute="centerY" secondItem="nLK-ZT-6lB" secondAttribute="centerY" id="Mn0-wi-kjC"/>
+                            <constraint firstItem="wRk-5H-VZC" firstAttribute="top" secondItem="eSw-xW-GKQ" secondAttribute="bottom" constant="8" id="hjM-wK-wku"/>
                             <constraint firstItem="2KW-Sw-aub" firstAttribute="centerY" secondItem="nLK-ZT-6lB" secondAttribute="centerY" constant="225" id="oBe-FE-R2S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Gw-3k-TAr"/>
@@ -500,9 +500,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxF-fS-3ET">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxF-fS-3ET">
                                 <rect key="frame" x="139" y="223" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -512,6 +511,7 @@
                         <constraints>
                             <constraint firstItem="d65-kp-xAv" firstAttribute="centerY" secondItem="Foy-Dc-fA0" secondAttribute="centerY" id="08g-oD-5Ki"/>
                             <constraint firstItem="M2j-Gc-zfa" firstAttribute="centerX" secondItem="Foy-Dc-fA0" secondAttribute="centerX" id="TTi-UJ-gQr"/>
+                            <constraint firstItem="d65-kp-xAv" firstAttribute="top" secondItem="ZxF-fS-3ET" secondAttribute="bottom" constant="8" id="aAH-g7-EER"/>
                             <constraint firstItem="M2j-Gc-zfa" firstAttribute="centerY" secondItem="Foy-Dc-fA0" secondAttribute="centerY" constant="225" id="ev6-ts-HU6"/>
                             <constraint firstItem="d65-kp-xAv" firstAttribute="centerX" secondItem="Foy-Dc-fA0" secondAttribute="centerX" id="zcm-Rf-zrb"/>
                         </constraints>
@@ -548,9 +548,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-jk-dJw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXZ-jk-dJw">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -561,6 +560,7 @@
                             <constraint firstItem="xsf-Ei-9Zw" firstAttribute="centerY" secondItem="sj9-7o-eRc" secondAttribute="centerY" constant="225" id="F01-1n-plD"/>
                             <constraint firstItem="xsf-Ei-9Zw" firstAttribute="centerX" secondItem="sj9-7o-eRc" secondAttribute="centerX" id="afc-yr-dkd"/>
                             <constraint firstItem="ht2-UB-DZf" firstAttribute="centerY" secondItem="sj9-7o-eRc" secondAttribute="centerY" id="bYK-Jd-IBJ"/>
+                            <constraint firstItem="ht2-UB-DZf" firstAttribute="top" secondItem="IXZ-jk-dJw" secondAttribute="bottom" constant="8" id="iHd-ZK-3hl"/>
                             <constraint firstItem="ht2-UB-DZf" firstAttribute="centerX" secondItem="sj9-7o-eRc" secondAttribute="centerX" id="yks-Zu-8yX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zMu-7b-XRf"/>
@@ -596,9 +596,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-iT-XoM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ed0-iT-XoM">
                                 <rect key="frame" x="139" y="230" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -609,6 +608,8 @@
                             <constraint firstItem="P5Z-cR-Gf5" firstAttribute="centerY" secondItem="dKr-hh-Ihr" secondAttribute="centerY" constant="225" id="MGM-pR-OX7"/>
                             <constraint firstItem="GGb-nN-ZEw" firstAttribute="centerX" secondItem="dKr-hh-Ihr" secondAttribute="centerX" id="PD2-Se-3uv"/>
                             <constraint firstItem="P5Z-cR-Gf5" firstAttribute="centerX" secondItem="dKr-hh-Ihr" secondAttribute="centerX" id="VDu-xu-14i"/>
+                            <constraint firstItem="GGb-nN-ZEw" firstAttribute="top" secondItem="ed0-iT-XoM" secondAttribute="bottom" constant="8" id="jOg-fK-lrr"/>
+                            <constraint firstItem="GGb-nN-ZEw" firstAttribute="top" secondItem="ed0-iT-XoM" secondAttribute="bottom" constant="8" id="ldL-6E-gfq"/>
                             <constraint firstItem="GGb-nN-ZEw" firstAttribute="centerY" secondItem="dKr-hh-Ihr" secondAttribute="centerY" id="pPc-V9-WBf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XMp-mP-So7"/>
@@ -643,9 +644,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6b-c2-gXh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6b-c2-gXh">
                                 <rect key="frame" x="153" y="264" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -654,6 +654,7 @@
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oDE-tr-dbD" firstAttribute="centerY" secondItem="owr-ZR-kqb" secondAttribute="centerY" constant="225" id="7O2-vw-xEO"/>
+                            <constraint firstItem="Bvy-Ox-GBF" firstAttribute="top" secondItem="c6b-c2-gXh" secondAttribute="bottom" constant="8" id="DVi-T7-PCH"/>
                             <constraint firstItem="Bvy-Ox-GBF" firstAttribute="centerY" secondItem="owr-ZR-kqb" secondAttribute="centerY" id="ZG2-FE-sXv"/>
                             <constraint firstItem="oDE-tr-dbD" firstAttribute="centerX" secondItem="owr-ZR-kqb" secondAttribute="centerX" id="dsC-b5-zWB"/>
                             <constraint firstItem="Bvy-Ox-GBF" firstAttribute="centerX" secondItem="owr-ZR-kqb" secondAttribute="centerX" id="jZ0-fU-bUT"/>
@@ -692,9 +693,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkd-IO-q0M">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nkd-IO-q0M">
                                 <rect key="frame" x="144" y="188" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -705,6 +705,7 @@
                             <constraint firstItem="9fJ-G3-KQf" firstAttribute="centerY" secondItem="PSL-3A-VQe" secondAttribute="centerY" constant="225" id="LZz-c3-bdP"/>
                             <constraint firstItem="ueR-3y-Q5U" firstAttribute="centerY" secondItem="PSL-3A-VQe" secondAttribute="centerY" id="VYj-xG-hwh"/>
                             <constraint firstItem="9fJ-G3-KQf" firstAttribute="centerX" secondItem="PSL-3A-VQe" secondAttribute="centerX" id="eOb-51-zdO"/>
+                            <constraint firstItem="ueR-3y-Q5U" firstAttribute="top" secondItem="nkd-IO-q0M" secondAttribute="bottom" constant="27" id="yi4-iN-eik"/>
                             <constraint firstItem="ueR-3y-Q5U" firstAttribute="centerX" secondItem="PSL-3A-VQe" secondAttribute="centerX" id="zy3-iB-LdG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rOz-FT-1Xk"/>
@@ -740,9 +741,8 @@
                                     <constraint firstAttribute="height" constant="262" id="fFK-Ax-j2j"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NId-LY-Mcv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NId-LY-Mcv">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -750,6 +750,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.91747976408223408" green="0.0051282104416916496" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="s93-ne-LKC" firstAttribute="top" secondItem="NId-LY-Mcv" secondAttribute="bottom" constant="8" id="04c-iz-9ka"/>
                             <constraint firstItem="svj-el-SYt" firstAttribute="centerX" secondItem="zWv-xI-MIn" secondAttribute="centerX" id="9R9-Q3-ch8"/>
                             <constraint firstItem="svj-el-SYt" firstAttribute="centerY" secondItem="zWv-xI-MIn" secondAttribute="centerY" constant="225" id="eLE-7f-uEO"/>
                             <constraint firstItem="s93-ne-LKC" firstAttribute="centerY" secondItem="zWv-xI-MIn" secondAttribute="centerY" id="nLd-pc-rx4"/>
@@ -788,9 +789,8 @@
                                     <constraint firstAttribute="width" constant="375" id="FFa-Dc-w91"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJX-6H-qkk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJX-6H-qkk">
                                 <rect key="frame" x="144" y="239" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -800,6 +800,7 @@
                         <constraints>
                             <constraint firstItem="hkj-gg-hQZ" firstAttribute="centerY" secondItem="WYt-Gd-FSm" secondAttribute="centerY" constant="225" id="4QA-bf-zYx"/>
                             <constraint firstItem="Yhv-lW-jJk" firstAttribute="centerX" secondItem="WYt-Gd-FSm" secondAttribute="centerX" id="NE0-ML-WJe"/>
+                            <constraint firstItem="Yhv-lW-jJk" firstAttribute="top" secondItem="iJX-6H-qkk" secondAttribute="bottom" constant="8" id="Pea-hT-Gdz"/>
                             <constraint firstItem="hkj-gg-hQZ" firstAttribute="centerX" secondItem="WYt-Gd-FSm" secondAttribute="centerX" id="QO6-0c-r87"/>
                             <constraint firstItem="Yhv-lW-jJk" firstAttribute="centerY" secondItem="WYt-Gd-FSm" secondAttribute="centerY" id="sEP-f5-jic"/>
                         </constraints>
@@ -836,9 +837,8 @@
                                     <constraint firstAttribute="height" constant="252" id="fgQ-YC-cyh"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF6-p2-CcW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF6-p2-CcW">
                                 <rect key="frame" x="144" y="231" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -847,6 +847,7 @@
                         <color key="backgroundColor" red="0.97368682040878118" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6xP-p9-x5A" firstAttribute="centerY" secondItem="7yL-HN-rpI" secondAttribute="centerY" id="GWa-en-LOg"/>
+                            <constraint firstItem="6xP-p9-x5A" firstAttribute="top" secondItem="dF6-p2-CcW" secondAttribute="bottom" constant="8" id="NgL-sD-78F"/>
                             <constraint firstItem="HNX-Ji-5OX" firstAttribute="centerX" secondItem="7yL-HN-rpI" secondAttribute="centerX" id="UfL-3e-jxa"/>
                             <constraint firstItem="HNX-Ji-5OX" firstAttribute="centerY" secondItem="7yL-HN-rpI" secondAttribute="centerY" constant="225" id="j0e-I2-lBE"/>
                             <constraint firstItem="6xP-p9-x5A" firstAttribute="centerX" secondItem="7yL-HN-rpI" secondAttribute="centerX" id="sqE-nX-UJN"/>
@@ -884,9 +885,8 @@
                                     <constraint firstAttribute="width" constant="375" id="uZY-5u-gYm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dnz-oQ-cBO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dnz-oQ-cBO">
                                 <rect key="frame" x="145" y="240" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -898,6 +898,7 @@
                             <constraint firstItem="k9T-hd-OOy" firstAttribute="centerY" secondItem="fx2-qy-kZe" secondAttribute="centerY" constant="225" id="Xda-xd-rbQ"/>
                             <constraint firstItem="k9T-hd-OOy" firstAttribute="centerX" secondItem="fx2-qy-kZe" secondAttribute="centerX" id="cmy-Qy-8e5"/>
                             <constraint firstItem="L5Q-6G-msQ" firstAttribute="centerY" secondItem="fx2-qy-kZe" secondAttribute="centerY" id="ucU-Rd-BaY"/>
+                            <constraint firstItem="L5Q-6G-msQ" firstAttribute="top" secondItem="Dnz-oQ-cBO" secondAttribute="bottom" constant="8" id="wPK-eo-5Vl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BbI-Ce-bz9"/>
                     </view>
@@ -932,9 +933,8 @@
                                     <constraint firstAttribute="height" constant="262" id="nmo-QY-gb4"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-qY-UDG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-qY-UDG">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -942,6 +942,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.45500898131663448" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="sbp-44-7zx" firstAttribute="top" secondItem="YGC-qY-UDG" secondAttribute="bottom" constant="8" id="1Jl-j6-sZ8"/>
                             <constraint firstItem="sbp-44-7zx" firstAttribute="centerY" secondItem="Gb6-A5-GVS" secondAttribute="centerY" id="8mm-rS-v0o"/>
                             <constraint firstItem="jxP-tK-yA9" firstAttribute="centerY" secondItem="Gb6-A5-GVS" secondAttribute="centerY" constant="225" id="LaA-fG-JfS"/>
                             <constraint firstItem="sbp-44-7zx" firstAttribute="centerX" secondItem="Gb6-A5-GVS" secondAttribute="centerX" id="Oye-Ct-fLg"/>
@@ -980,9 +981,8 @@
                                     <constraint firstAttribute="width" constant="375" id="92e-nT-vcm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcC-hK-BLt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcC-hK-BLt">
                                 <rect key="frame" x="145" y="221" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -993,6 +993,7 @@
                             <constraint firstItem="j56-1X-XgI" firstAttribute="centerY" secondItem="dur-V3-JRO" secondAttribute="centerY" id="GDm-Ja-goE"/>
                             <constraint firstItem="j51-x4-ZF1" firstAttribute="centerX" secondItem="dur-V3-JRO" secondAttribute="centerX" id="I70-em-gsE"/>
                             <constraint firstItem="j56-1X-XgI" firstAttribute="centerX" secondItem="dur-V3-JRO" secondAttribute="centerX" id="WAY-md-QRQ"/>
+                            <constraint firstItem="j56-1X-XgI" firstAttribute="top" secondItem="rcC-hK-BLt" secondAttribute="bottom" constant="8" id="g4Z-6l-MzQ"/>
                             <constraint firstItem="j51-x4-ZF1" firstAttribute="centerY" secondItem="dur-V3-JRO" secondAttribute="centerY" constant="225" id="rFs-p1-NmL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lYA-wU-noZ"/>
@@ -1028,9 +1029,8 @@
                                     <constraint firstAttribute="height" constant="246" id="YuB-Id-ZDe"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mu-wM-7ER">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mu-wM-7ER">
                                 <rect key="frame" x="139" y="204" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1041,6 +1041,7 @@
                             <constraint firstItem="YST-EQ-LM7" firstAttribute="centerY" secondItem="6Xm-e1-hzz" secondAttribute="centerY" id="aI4-RN-iNE"/>
                             <constraint firstItem="KWd-EW-gGL" firstAttribute="centerY" secondItem="6Xm-e1-hzz" secondAttribute="centerY" constant="225" id="b2B-Zy-FlR"/>
                             <constraint firstItem="KWd-EW-gGL" firstAttribute="centerX" secondItem="6Xm-e1-hzz" secondAttribute="centerX" id="l0U-ib-Q9U"/>
+                            <constraint firstItem="YST-EQ-LM7" firstAttribute="top" secondItem="5mu-wM-7ER" secondAttribute="bottom" constant="29" id="s2b-SC-2fN"/>
                             <constraint firstItem="YST-EQ-LM7" firstAttribute="centerX" secondItem="6Xm-e1-hzz" secondAttribute="centerX" id="vfN-Ya-cGH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ThQ-iB-qNG"/>
@@ -1088,9 +1089,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5z-M0-qJ7">
-                                <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5z-M0-qJ7">
+                                <rect key="frame" x="139" y="240.5" width="96" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1099,6 +1099,7 @@
                         <color key="backgroundColor" red="0.4403944270833775" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="o4z-Hf-36v" firstAttribute="centerX" secondItem="5hh-2Z-NvY" secondAttribute="centerX" id="8T7-B7-DdH"/>
+                            <constraint firstItem="uLu-hK-iZR" firstAttribute="top" secondItem="c5z-M0-qJ7" secondAttribute="bottom" constant="8" id="XAC-YE-Jlb"/>
                             <constraint firstItem="uLu-hK-iZR" firstAttribute="centerX" secondItem="5hh-2Z-NvY" secondAttribute="centerX" id="m4k-LS-CEE"/>
                             <constraint firstItem="o4z-Hf-36v" firstAttribute="centerY" secondItem="5hh-2Z-NvY" secondAttribute="centerY" constant="225" id="sJq-aA-8mG"/>
                             <constraint firstItem="uLu-hK-iZR" firstAttribute="centerY" secondItem="5hh-2Z-NvY" secondAttribute="centerY" id="spp-7t-rWT"/>
@@ -1135,9 +1136,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4D4-Fs-sZx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4D4-Fs-sZx">
                                 <rect key="frame" x="153" y="240" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1149,6 +1149,7 @@
                             <constraint firstItem="8km-SK-Kc0" firstAttribute="centerX" secondItem="btd-1W-Rkv" secondAttribute="centerX" id="TGB-aW-zXd"/>
                             <constraint firstItem="8km-SK-Kc0" firstAttribute="centerY" secondItem="btd-1W-Rkv" secondAttribute="centerY" id="aRj-T3-IVY"/>
                             <constraint firstItem="XSq-Cc-SrT" firstAttribute="centerY" secondItem="btd-1W-Rkv" secondAttribute="centerY" constant="225" id="tlM-vE-8Yr"/>
+                            <constraint firstItem="8km-SK-Kc0" firstAttribute="top" secondItem="4D4-Fs-sZx" secondAttribute="bottom" constant="8" id="yrd-Fc-NZ6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ghf-53-eJh"/>
                     </view>
@@ -1444,9 +1445,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyE-pM-Hly">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyE-pM-Hly">
                                 <rect key="frame" x="145" y="240" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1457,6 +1457,7 @@
                             <constraint firstItem="B4e-uM-LQ4" firstAttribute="centerX" secondItem="z2Q-Ob-nUo" secondAttribute="centerX" id="BMY-NE-cYF"/>
                             <constraint firstItem="ti9-kl-eZ9" firstAttribute="centerX" secondItem="z2Q-Ob-nUo" secondAttribute="centerX" id="gXg-ji-fk0"/>
                             <constraint firstItem="B4e-uM-LQ4" firstAttribute="centerY" secondItem="z2Q-Ob-nUo" secondAttribute="centerY" id="hwc-nz-dIK"/>
+                            <constraint firstItem="B4e-uM-LQ4" firstAttribute="top" secondItem="dyE-pM-Hly" secondAttribute="bottom" constant="8" id="m6u-Zu-Dse"/>
                             <constraint firstItem="ti9-kl-eZ9" firstAttribute="centerY" secondItem="z2Q-Ob-nUo" secondAttribute="centerY" constant="225" id="pOX-db-rU4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Ly-e8-GKc"/>
@@ -1492,9 +1493,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-zh-7OV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mSc-zh-7OV">
                                 <rect key="frame" x="144" y="240" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1504,6 +1504,7 @@
                         <constraints>
                             <constraint firstItem="n32-pN-dJZ" firstAttribute="centerX" secondItem="a6E-ur-cPi" secondAttribute="centerX" id="9TH-0E-Xzb"/>
                             <constraint firstItem="xtI-rN-r6O" firstAttribute="centerY" secondItem="a6E-ur-cPi" secondAttribute="centerY" id="BGg-qD-HQC"/>
+                            <constraint firstItem="xtI-rN-r6O" firstAttribute="top" secondItem="mSc-zh-7OV" secondAttribute="bottom" constant="8" id="j8a-H8-Hmu"/>
                             <constraint firstItem="n32-pN-dJZ" firstAttribute="centerY" secondItem="a6E-ur-cPi" secondAttribute="centerY" constant="225" id="mP4-dd-67u"/>
                             <constraint firstItem="xtI-rN-r6O" firstAttribute="centerX" secondItem="a6E-ur-cPi" secondAttribute="centerX" id="yQd-eh-abk"/>
                         </constraints>
@@ -1540,9 +1541,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-cY-5tD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semsters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J2t-cY-5tD">
                                 <rect key="frame" x="144" y="240" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1554,6 +1554,7 @@
                             <constraint firstItem="j5N-Aq-eCX" firstAttribute="centerX" secondItem="oI2-ZF-NDM" secondAttribute="centerX" id="5Bf-aU-ZC7"/>
                             <constraint firstItem="j5N-Aq-eCX" firstAttribute="centerY" secondItem="oI2-ZF-NDM" secondAttribute="centerY" constant="225" id="PsO-Le-SeE"/>
                             <constraint firstItem="2ee-po-LTJ" firstAttribute="centerX" secondItem="oI2-ZF-NDM" secondAttribute="centerX" id="XOT-hm-she"/>
+                            <constraint firstItem="2ee-po-LTJ" firstAttribute="top" secondItem="J2t-cY-5tD" secondAttribute="bottom" constant="8" id="cyI-w8-n8e"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4P0-83-Qf4"/>
                     </view>
@@ -1588,9 +1589,8 @@
                                     <constraint firstAttribute="width" constant="375" id="niQ-qG-Tfo"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxc-bd-q1r">
-                                <rect key="frame" x="139" y="234" width="96" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxc-bd-q1r">
+                                <rect key="frame" x="139" y="240.5" width="96" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1602,6 +1602,7 @@
                             <constraint firstItem="gqw-Ie-PH7" firstAttribute="centerY" secondItem="upC-EO-9Cg" secondAttribute="centerY" constant="225" id="KFm-i5-1kY"/>
                             <constraint firstItem="ghd-s5-W74" firstAttribute="centerX" secondItem="upC-EO-9Cg" secondAttribute="centerX" id="Spw-1a-edv"/>
                             <constraint firstItem="gqw-Ie-PH7" firstAttribute="centerX" secondItem="upC-EO-9Cg" secondAttribute="centerX" id="gKs-AK-zbu"/>
+                            <constraint firstItem="ghd-s5-W74" firstAttribute="top" secondItem="wxc-bd-q1r" secondAttribute="bottom" constant="8" id="goj-52-PVF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nux-Ve-ekV"/>
                     </view>
@@ -1635,9 +1636,8 @@
                                     <constraint firstAttribute="width" constant="375" id="cSd-nX-Xwh"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUw-JN-K2I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUw-JN-K2I">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1648,6 +1648,7 @@
                             <constraint firstItem="v1P-12-ms6" firstAttribute="centerY" secondItem="OXb-lk-CLK" secondAttribute="centerY" constant="225" id="5sB-qW-J9d"/>
                             <constraint firstItem="4nd-tY-sCV" firstAttribute="centerY" secondItem="OXb-lk-CLK" secondAttribute="centerY" id="DoB-AN-i7c"/>
                             <constraint firstItem="4nd-tY-sCV" firstAttribute="centerX" secondItem="OXb-lk-CLK" secondAttribute="centerX" id="LIY-zK-GAa"/>
+                            <constraint firstItem="4nd-tY-sCV" firstAttribute="top" secondItem="SUw-JN-K2I" secondAttribute="bottom" constant="8" id="OI1-yS-J5Z"/>
                             <constraint firstItem="v1P-12-ms6" firstAttribute="centerX" secondItem="OXb-lk-CLK" secondAttribute="centerX" id="eGt-ic-WnV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="2Fu-OJ-Zf3"/>
@@ -1818,9 +1819,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL8-Ah-TwS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OL8-Ah-TwS">
                                 <rect key="frame" x="145" y="216" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1829,6 +1829,7 @@
                         <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HRy-hb-BYv" firstAttribute="centerX" secondItem="3HI-bL-kQp" secondAttribute="centerX" id="42J-gq-E9r"/>
+                            <constraint firstItem="z2o-vJ-XeV" firstAttribute="top" secondItem="OL8-Ah-TwS" secondAttribute="bottom" constant="8" id="FgH-hq-bxG"/>
                             <constraint firstItem="z2o-vJ-XeV" firstAttribute="centerX" secondItem="3HI-bL-kQp" secondAttribute="centerX" id="MrZ-92-zAf"/>
                             <constraint firstItem="z2o-vJ-XeV" firstAttribute="centerY" secondItem="3HI-bL-kQp" secondAttribute="centerY" id="PhD-T9-1ZI"/>
                             <constraint firstItem="HRy-hb-BYv" firstAttribute="centerY" secondItem="3HI-bL-kQp" secondAttribute="centerY" constant="225" id="opT-ZQ-UJz"/>
@@ -1866,9 +1867,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdm-Pi-Jdv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdm-Pi-Jdv">
                                 <rect key="frame" x="145" y="231" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1876,6 +1876,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.080762223663329191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="fae-Z4-luV" firstAttribute="top" secondItem="xdm-Pi-Jdv" secondAttribute="bottom" constant="8" id="4Ky-jj-dYK"/>
                             <constraint firstItem="fae-Z4-luV" firstAttribute="centerX" secondItem="vWT-Xn-tF6" secondAttribute="centerX" id="QXe-bo-Z1k"/>
                             <constraint firstItem="Wgo-ob-7K9" firstAttribute="centerY" secondItem="vWT-Xn-tF6" secondAttribute="centerY" constant="225" id="Qct-JM-exs"/>
                             <constraint firstItem="Wgo-ob-7K9" firstAttribute="centerX" secondItem="vWT-Xn-tF6" secondAttribute="centerX" id="k7L-YY-H1H"/>
@@ -1914,9 +1915,8 @@
                                     <constraint firstAttribute="height" constant="230" id="zNf-jF-8pT"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-V6-9y1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nb3-V6-9y1">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1924,6 +1924,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.044555379001338435" green="0.98807081062679769" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Gag-M5-LjQ" firstAttribute="top" secondItem="nb3-V6-9y1" secondAttribute="bottom" constant="8" id="3N9-Uz-YNq"/>
                             <constraint firstItem="kpv-zO-h2U" firstAttribute="centerX" secondItem="E0U-KV-3HR" secondAttribute="centerX" id="dnM-RB-JXw"/>
                             <constraint firstItem="kpv-zO-h2U" firstAttribute="centerY" secondItem="E0U-KV-3HR" secondAttribute="centerY" constant="225" id="fIi-v9-jTf"/>
                             <constraint firstItem="Gag-M5-LjQ" firstAttribute="centerX" secondItem="E0U-KV-3HR" secondAttribute="centerX" id="p2g-gI-jl1"/>
@@ -1962,9 +1963,8 @@
                                     <constraint firstAttribute="height" constant="208" id="sf6-7O-6Gf"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW1-La-RZw">
-                                <rect key="frame" x="145" y="203" width="85" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW1-La-RZw">
+                                <rect key="frame" x="145" y="215.5" width="85" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1974,6 +1974,7 @@
                         <constraints>
                             <constraint firstItem="TU7-YR-aUn" firstAttribute="centerX" secondItem="L91-u9-sij" secondAttribute="centerX" id="0rS-Ny-MWc"/>
                             <constraint firstItem="TU7-YR-aUn" firstAttribute="centerY" secondItem="L91-u9-sij" secondAttribute="centerY" id="0wk-8R-Qp8"/>
+                            <constraint firstItem="TU7-YR-aUn" firstAttribute="top" secondItem="oW1-La-RZw" secondAttribute="bottom" constant="8" id="FxT-ZK-9Zw"/>
                             <constraint firstItem="e0d-zC-3F9" firstAttribute="centerY" secondItem="L91-u9-sij" secondAttribute="centerY" constant="225" id="OE1-cf-sEV"/>
                             <constraint firstItem="e0d-zC-3F9" firstAttribute="centerX" secondItem="L91-u9-sij" secondAttribute="centerX" id="glS-q4-TTE"/>
                         </constraints>
@@ -2010,9 +2011,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5n7-Vo-emw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1 Semester" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5n7-Vo-emw">
                                 <rect key="frame" x="145" y="221" width="85" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -2021,6 +2021,7 @@
                         <color key="backgroundColor" red="1" green="0.079394028178769616" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="88Y-Uy-Nze" firstAttribute="centerX" secondItem="UJL-Jk-wxk" secondAttribute="centerX" id="2Zq-2p-tgG"/>
+                            <constraint firstItem="88Y-Uy-Nze" firstAttribute="top" secondItem="5n7-Vo-emw" secondAttribute="bottom" constant="8" id="SQu-QP-WqB"/>
                             <constraint firstItem="88Y-Uy-Nze" firstAttribute="centerY" secondItem="UJL-Jk-wxk" secondAttribute="centerY" id="hGS-BJ-AgC"/>
                             <constraint firstItem="FWs-Qv-Mbd" firstAttribute="centerX" secondItem="UJL-Jk-wxk" secondAttribute="centerX" id="m0w-Ek-j0g"/>
                             <constraint firstItem="FWs-Qv-Mbd" firstAttribute="centerY" secondItem="UJL-Jk-wxk" secondAttribute="centerY" constant="225" id="qbY-cU-pBl"/>
