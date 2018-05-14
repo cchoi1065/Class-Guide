@@ -46,7 +46,7 @@
                                         </state>
                                         <connections>
                                             <action selector="subjectTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEP-Tw-27f"/>
-                                            <segue destination="Rd1-ec-gye" kind="show" id="z9v-sW-gjD"/>
+                                            <segue destination="cTD-XO-spG" kind="show" id="jhH-sC-0Uh"/>
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpv-1O-ZCg">
@@ -180,6 +180,130 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-68" y="32.833583208395808"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="PHy-c8-sdd">
+            <objects>
+                <viewController id="XDQ-nL-xVu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QQY-HG-7SP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="hIe-wJ-Ovb">
+                                <rect key="frame" x="90" y="234" width="194" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Od-34G">
+                                        <rect key="frame" x="27" y="0.0" width="140" height="30"/>
+                                        <state key="normal" title="A+ Computer Repair"/>
+                                        <connections>
+                                            <segue destination="rB9-Mx-QmE" kind="show" id="Au3-9A-2MT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qub-8x-QhN">
+                                        <rect key="frame" x="0.0" y="60" width="194" height="30"/>
+                                        <state key="normal" title="Cisco Networking Essentials"/>
+                                        <connections>
+                                            <segue destination="T0J-AM-aYo" kind="show" id="JaY-lq-ErA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ks0-5S-TZl">
+                                        <rect key="frame" x="46" y="120" width="102" height="30"/>
+                                        <state key="normal" title="Cyber Security"/>
+                                        <connections>
+                                            <segue destination="J8l-SB-Jqb" kind="show" id="7DD-KD-fkN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="2eH-4M-7Ko"/>
+                                    <constraint firstAttribute="height" constant="150" id="S72-xy-6Wy"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.85734700907414885" blue="0.87034928043893678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hIe-wJ-Ovb" firstAttribute="centerY" secondItem="QQY-HG-7SP" secondAttribute="centerY" id="bOp-3Y-OU1"/>
+                            <constraint firstItem="hIe-wJ-Ovb" firstAttribute="centerX" secondItem="QQY-HG-7SP" secondAttribute="centerX" id="shQ-cM-XOb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DpK-KL-DYp"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="dKP-Rv-Wy7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9U-AE-C9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3287" y="-526"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="JTU-Ci-qII">
+            <objects>
+                <viewController id="CA1-or-zKz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EbA-Sm-cWx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="edl-Um-upr">
+                                <rect key="frame" x="88" y="234" width="198" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIK-Qo-xlP">
+                                        <rect key="frame" x="56" y="0.0" width="86" height="30"/>
+                                        <state key="normal" title="Mobile Apps">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="yg7-Wb-BQl" kind="show" id="zhG-pW-cs3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iT-vW-iWg">
+                                        <rect key="frame" x="24" y="60" width="150" height="30"/>
+                                        <state key="normal" title="Computer Science AP"/>
+                                        <connections>
+                                            <segue destination="ZRK-46-qSr" kind="show" id="tfS-1K-lRX"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-bD-xtv">
+                                        <rect key="frame" x="0.0" y="120" width="198" height="30"/>
+                                        <state key="normal" title="Computer Science Principles"/>
+                                        <connections>
+                                            <segue destination="Ug1-vV-2GM" kind="show" id="IdB-RT-gjO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="0fk-LB-AeN"/>
+                                    <constraint firstAttribute="height" constant="150" id="i9s-Tx-6Et"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91211941113235173" green="1" blue="0.88521723599537949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="edl-Um-upr" firstAttribute="centerX" secondItem="EbA-Sm-cWx" secondAttribute="centerX" id="N1X-m1-fZL"/>
+                            <constraint firstItem="edl-Um-upr" firstAttribute="centerY" secondItem="EbA-Sm-cWx" secondAttribute="centerY" id="yTm-40-I7N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="duR-Hp-AN5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="0TJ-FD-0pU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="avX-Yy-A9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3286" y="-1696"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DeY-0X-CNa">
+            <objects>
+                <tabBarController id="cTD-XO-spG" sceneMemberID="viewController">
+                    <tabBar key="tabBar" alpha="0.20000000000000001" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="L6e-l9-ZQt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CA1-or-zKz" kind="relationship" relationship="viewControllers" id="qFy-il-OTx"/>
+                        <segue destination="XDQ-nL-xVu" kind="relationship" relationship="viewControllers" id="5Wn-EF-hqk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xn9-Uz-WWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="-659"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kpu-nL-boq">
@@ -1172,44 +1296,26 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-OZ-isv">
                                         <rect key="frame" x="56" y="0.0" width="86" height="30"/>
                                         <state key="normal" title="Mobile Apps"/>
-                                        <connections>
-                                            <segue destination="yg7-Wb-BQl" kind="show" id="cOt-XR-VVe"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvE-Ua-bM7">
                                         <rect key="frame" x="24" y="60" width="150" height="30"/>
                                         <state key="normal" title="Computer Science AP"/>
-                                        <connections>
-                                            <segue destination="ZRK-46-qSr" kind="show" id="VxA-MD-Rqw"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJF-pU-T4A">
                                         <rect key="frame" x="0.0" y="120" width="198" height="30"/>
                                         <state key="normal" title="Cmoputer Science Principles"/>
-                                        <connections>
-                                            <segue destination="Ug1-vV-2GM" kind="show" id="NfS-n0-LNJ"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPC-gg-QFq">
                                         <rect key="frame" x="29" y="180" width="140" height="30"/>
                                         <state key="normal" title="A+ Computer Repair"/>
-                                        <connections>
-                                            <segue destination="rB9-Mx-QmE" kind="show" id="Llo-hy-BTU"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REv-Wo-ypq">
                                         <rect key="frame" x="2" y="240" width="194" height="30"/>
                                         <state key="normal" title="Cisco Networking Essentials"/>
-                                        <connections>
-                                            <segue destination="T0J-AM-aYo" kind="show" id="UUQ-ha-aew"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJT-hy-3kS">
                                         <rect key="frame" x="48" y="300" width="102" height="30"/>
                                         <state key="normal" title="Cyber Security"/>
-                                        <connections>
-                                            <segue destination="J8l-SB-Jqb" kind="show" id="ehJ-4W-56f"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -1224,7 +1330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xBH-7q-Rq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="654" y="-680"/>
+            <point key="canvasLocation" x="-5287" y="-836"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tdz-tw-gDp">
