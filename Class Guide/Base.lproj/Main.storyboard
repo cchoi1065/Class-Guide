@@ -231,7 +231,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9U-AE-C9f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3287" y="-526"/>
+            <point key="canvasLocation" x="622" y="-1412"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="JTU-Ci-qII">
@@ -285,16 +285,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="avX-Yy-A9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3286" y="-1696"/>
+            <point key="canvasLocation" x="622" y="-2301"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DeY-0X-CNa">
             <objects>
                 <tabBarController id="cTD-XO-spG" sceneMemberID="viewController">
-                    <tabBar key="tabBar" alpha="0.20000000000000001" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="L6e-l9-ZQt">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="L6e-l9-ZQt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="CA1-or-zKz" kind="relationship" relationship="viewControllers" id="qFy-il-OTx"/>
@@ -303,7 +303,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xn9-Uz-WWk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="-659"/>
+            <point key="canvasLocation" x="622" y="-655"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kpu-nL-boq">
@@ -352,7 +352,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rCO-e0-snm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2018.4000000000001" y="-1248.1259370314845"/>
+            <point key="canvasLocation" x="-2393" y="-1186"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VmD-su-t33">
@@ -405,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QjF-4Y-j07" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1226.4000000000001" y="-1048.4257871064469"/>
+            <point key="canvasLocation" x="-1002" y="-1186"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="zmz-G9-r1Z">
@@ -453,7 +453,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M6l-W9-4WJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-271.19999999999999" y="-1025.0374812593705"/>
+            <point key="canvasLocation" x="-1458" y="-2516"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vls-K9-6EK">
@@ -500,7 +500,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPR-yJ-MIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1458.4000000000001" y="-2000.1499250374814"/>
+            <point key="canvasLocation" x="-1706" y="-1186"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Bpn-EH-mMv">
@@ -548,7 +548,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iiF-Ps-zD2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-412" y="-1732.0839580209897"/>
+            <point key="canvasLocation" x="-2974" y="-2516"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Hgg-iG-khT">
@@ -596,7 +596,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lgd-9F-syx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="621.60000000000002" y="-1427.136431784108"/>
+            <point key="canvasLocation" x="-2260" y="-2516"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="C7o-NP-7Ra">
@@ -1281,56 +1281,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epo-S6-QFa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2892" y="-1490.1049475262371"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="bmK-Ac-eye">
-            <objects>
-                <viewController id="Rd1-ec-gye" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BrB-3G-aY1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aWc-pR-SrQ">
-                                <rect key="frame" x="88" y="168" width="198" height="330"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAx-OZ-isv">
-                                        <rect key="frame" x="56" y="0.0" width="86" height="30"/>
-                                        <state key="normal" title="Mobile Apps"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvE-Ua-bM7">
-                                        <rect key="frame" x="24" y="60" width="150" height="30"/>
-                                        <state key="normal" title="Computer Science AP"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJF-pU-T4A">
-                                        <rect key="frame" x="0.0" y="120" width="198" height="30"/>
-                                        <state key="normal" title="Cmoputer Science Principles"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPC-gg-QFq">
-                                        <rect key="frame" x="29" y="180" width="140" height="30"/>
-                                        <state key="normal" title="A+ Computer Repair"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REv-Wo-ypq">
-                                        <rect key="frame" x="2" y="240" width="194" height="30"/>
-                                        <state key="normal" title="Cisco Networking Essentials"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJT-hy-3kS">
-                                        <rect key="frame" x="48" y="300" width="102" height="30"/>
-                                        <state key="normal" title="Cyber Security"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="aWc-pR-SrQ" firstAttribute="centerX" secondItem="BrB-3G-aY1" secondAttribute="centerX" id="LQn-qq-gYv"/>
-                            <constraint firstItem="aWc-pR-SrQ" firstAttribute="centerY" secondItem="BrB-3G-aY1" secondAttribute="centerY" id="PiD-BP-pFt"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="BDc-13-agi"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xBH-7q-Rq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-5287" y="-836"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tdz-tw-gDp">
