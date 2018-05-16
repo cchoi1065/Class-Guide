@@ -186,11 +186,11 @@
             <objects>
                 <viewController id="XDQ-nL-xVu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQY-HG-7SP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="hIe-wJ-Ovb">
-                                <rect key="frame" x="90" y="234" width="194" height="150"/>
+                                <rect key="frame" x="90" y="258.5" width="194" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Od-34G">
                                         <rect key="frame" x="27" y="0.0" width="140" height="30"/>
@@ -238,11 +238,11 @@
             <objects>
                 <viewController id="CA1-or-zKz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EbA-Sm-cWx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="edl-Um-upr">
-                                <rect key="frame" x="88" y="234" width="198" height="150"/>
+                                <rect key="frame" x="88" y="258.5" width="198" height="150"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIK-Qo-xlP">
                                         <rect key="frame" x="56" y="0.0" width="86" height="30"/>
@@ -291,7 +291,7 @@
         <scene sceneID="DeY-0X-CNa">
             <objects>
                 <tabBarController id="cTD-XO-spG" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="L6e-l9-ZQt">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L6e-l9-ZQt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
