@@ -279,10 +279,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKBTAM8H26;
+				DEVELOPMENT_TEAM = 2493DVB6DZ;
 				INFOPLIST_FILE = "Class Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,10 +295,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UKBTAM8H26;
+				DEVELOPMENT_TEAM = 2493DVB6DZ;
 				INFOPLIST_FILE = "Class Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jhhs.621065.Class-Guide1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
