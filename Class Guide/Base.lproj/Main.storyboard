@@ -137,12 +137,9 @@
                                     <constraint firstAttribute="trailing" secondItem="lCR-6U-YyV" secondAttribute="trailing" id="z3e-Sa-ayZ"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
                                 <rect key="frame" x="16" y="425.5" width="343" height="216"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="216" id="1HY-rR-WmF"/>
-                                    <constraint firstAttribute="width" constant="343" id="uQP-Og-8Tr"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Hersey High School, District 214" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-H4-gZg">
                                 <rect key="frame" x="43" y="387" width="289.5" height="20.5"/>
