@@ -137,15 +137,13 @@
                                     <constraint firstAttribute="trailing" secondItem="lCR-6U-YyV" secondAttribute="trailing" id="z3e-Sa-ayZ"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
                                 <rect key="frame" x="16" y="425.5" width="343" height="216"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="216" id="1HY-rR-WmF"/>
-                                    <constraint firstAttribute="width" constant="343" id="uQP-Og-8Tr"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Hersey High School, District 214" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-H4-gZg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Hersey High School, District 214" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-H4-gZg">
                                 <rect key="frame" x="43" y="387" width="289.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -154,9 +152,7 @@
                         <color key="backgroundColor" red="0.77404320553420647" green="1" blue="0.68994329373793095" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="bWZ-f4-eB7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="3TR-zI-fD0"/>
-                            <constraint firstItem="Iq3-H4-gZg" firstAttribute="top" secondItem="bWZ-f4-eB7" secondAttribute="bottom" constant="283" id="ONf-kE-zRu"/>
                             <constraint firstItem="bWZ-f4-eB7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d6j-D7-tnB"/>
-                            <constraint firstItem="Iq3-H4-gZg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="hys-Di-iHz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bWZ-f4-eB7" secondAttribute="trailing" id="xgx-F8-Lt3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
