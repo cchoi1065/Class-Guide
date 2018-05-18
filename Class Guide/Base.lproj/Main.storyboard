@@ -148,6 +148,15 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1n-JW-ObP">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="ORq-eF-8Yn"/>
+                                    <tabBarItem systemItem="more" id="h0F-nB-TLH"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.7910512545683912" green="0.7794903332046913" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
