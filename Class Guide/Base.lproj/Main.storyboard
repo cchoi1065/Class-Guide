@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--John Hersey High School Class Guide-->
+        <!--Class Guide-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Class_Guide" customModuleProvider="target" sceneMemberID="viewController">
@@ -157,7 +157,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="John Hersey High School Class Guide" id="2DW-Hn-Ze2"/>
+                    <navigationItem key="navigationItem" title="Class Guide" id="2DW-Hn-Ze2"/>
                     <connections>
                         <outletCollection property="subjectCollection" destination="ZCR-e5-ZMn" collectionClass="NSMutableArray" id="wuY-26-lqe"/>
                         <outletCollection property="subjectCollection" destination="Zpv-1O-ZCg" collectionClass="NSMutableArray" id="EMt-TN-M9D"/>
