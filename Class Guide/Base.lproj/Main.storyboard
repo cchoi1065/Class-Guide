@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bWZ-f4-eB7">
-                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-gi-7Q8">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
@@ -36,7 +36,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCR-e5-ZMn">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3wv-5M-IlH"/>
@@ -50,7 +50,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpv-1O-ZCg">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="SEt-Hh-lGc"/>
@@ -64,7 +64,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOZ-1N-xaX" userLabel="Social Studies">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="kfX-44-e7j"/>
@@ -78,7 +78,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCR-6U-YyV">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="GOr-wj-ONe"/>
@@ -92,7 +92,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOh-ER-wsQ">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="lu1-KQ-lZh"/>
@@ -106,7 +106,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCO-0Q-Gbx">
-                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RMi-vh-Dzl"/>
@@ -148,15 +148,6 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1n-JW-ObP">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="ORq-eF-8Yn"/>
-                                    <tabBarItem systemItem="more" id="h0F-nB-TLH"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.7910512545683912" green="0.7794903332046913" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -166,6 +157,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="General" id="3jD-1O-dKY"/>
                     <navigationItem key="navigationItem" title="John Hersey High School Class Guide" id="2DW-Hn-Ze2"/>
                     <connections>
                         <outletCollection property="subjectCollection" destination="ZCR-e5-ZMn" collectionClass="NSMutableArray" id="wuY-26-lqe"/>
@@ -1497,7 +1489,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0SY-Y2-cow" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="526" y="874"/>
+            <point key="canvasLocation" x="-2786" y="98"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ruW-FW-yl8">
@@ -1925,7 +1917,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="spq-WO-Emh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2010.4000000000001" y="867.61619190404804"/>
+            <point key="canvasLocation" x="-3622" y="874"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LVN-tJ-T51">
@@ -1974,7 +1966,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pfm-Bd-cCv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1221.5999999999999" y="844.22788605697156"/>
+            <point key="canvasLocation" x="-2786" y="874"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YKO-aO-qsr">
@@ -2023,7 +2015,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0pC-h0-Ojv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1261.5999999999999" y="1672.7136431784108"/>
+            <point key="canvasLocation" x="-3623" y="1621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IU6-3V-cb6">
@@ -2072,7 +2064,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ia8-YZ-97U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-271.19999999999999" y="1654.7226386806599"/>
+            <point key="canvasLocation" x="-2786" y="1621"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="luK-Pc-DUR">
@@ -2121,7 +2113,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XH-nH-4Y1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-376.80000000000001" y="830.73463268365822"/>
+            <point key="canvasLocation" x="-1980" y="874"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="i8i-XY-Y7C">
+            <objects>
+                <tabBarController id="ksF-kD-ZhJ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q47-oy-9fN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="En9-w3-ziM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3hW-gd-OdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-260" y="785"/>
         </scene>
     </scenes>
     <resources>
@@ -2157,4 +2166,7 @@
         <image name="music theory" width="624" height="584"/>
         <image name="orchestra" width="225" height="225"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="En9-w3-ziM"/>
+    </inferredMetricsTieBreakers>
 </document>
