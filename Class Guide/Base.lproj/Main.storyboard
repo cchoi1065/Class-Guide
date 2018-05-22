@@ -19,24 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bWZ-f4-eB7">
-                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-gi-7Q8">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
-                                        <color key="backgroundColor" red="0.23905035621761661" green="0.23905035621761661" blue="0.23905035621761661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="g1c-3W-jKu"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <state key="normal" title="Press To Select Subject">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="handleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jft-iC-VQZ"/>
-                                        </connections>
-                                    </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCR-e5-ZMn">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3wv-5M-IlH"/>
@@ -50,7 +36,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpv-1O-ZCg">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="SEt-Hh-lGc"/>
@@ -64,7 +50,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOZ-1N-xaX" userLabel="Social Studies">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="kfX-44-e7j"/>
@@ -78,7 +64,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCR-6U-YyV">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="GOr-wj-ONe"/>
@@ -92,7 +78,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OOh-ER-wsQ">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="lu1-KQ-lZh"/>
@@ -106,7 +92,7 @@
                                         </connections>
                                     </button>
                                     <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qCO-0Q-Gbx">
-                                        <rect key="frame" x="0.0" y="-20" width="375" height="40"/>
+                                        <rect key="frame" x="0.0" y="-64" width="375" height="40"/>
                                         <color key="backgroundColor" red="0.040152982237814439" green="0.43361398963730569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="RMi-vh-Dzl"/>
@@ -117,6 +103,20 @@
                                         <connections>
                                             <action selector="subjectTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sCf-5T-bB3"/>
                                             <segue destination="fQz-At-SaC" kind="show" id="cbD-Jc-RpZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfj-gi-7Q8">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                                        <color key="backgroundColor" red="0.23905035621761661" green="0.23905035621761661" blue="0.23905035621761661" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="g1c-3W-jKu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="Press To Select Subject">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="handleSection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jft-iC-VQZ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2489,6 +2489,6 @@
         <image name="orchestra" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="En9-w3-ziM"/>
+        <segue reference="PkL-bs-a0k"/>
     </inferredMetricsTieBreakers>
 </document>
