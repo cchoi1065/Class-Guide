@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Class Guide-->
+        <!--JHHS Class Guide-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Class_Guide" customModuleProvider="target" sceneMemberID="viewController">
@@ -138,16 +138,40 @@
                                 </constraints>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="john_hersey_high_school_1" translatesAutoresizingMaskIntoConstraints="NO" id="uwG-d2-HlX">
-                                <rect key="frame" x="16" y="425.5" width="343" height="216"/>
+                                <rect key="frame" x="16" y="374" width="343" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Hersey High School, District 214" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iq3-H4-gZg">
-                                <rect key="frame" x="43" y="387" width="289.5" height="20.5"/>
+                                <rect key="frame" x="43" y="346" width="289.5" height="20.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmB-Zu-6UT">
+                                <rect key="frame" x="284" y="617" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="HomePage"/>
+                                <connections>
+                                    <segue destination="Qym-7h-qDg" kind="show" id="E0l-DV-u1l"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WN-jd-5G3">
+                                <rect key="frame" x="16" y="617" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Info"/>
+                                <connections>
+                                    <segue destination="dHY-zw-1Dy" kind="show" id="hFQ-bD-2eh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXw-6K-lD1">
+                                <rect key="frame" x="166" y="617" width="42" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Social"/>
+                                <connections>
+                                    <segue destination="5Oq-s4-TW6" kind="show" id="guy-0A-KyU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7910512545683912" green="0.7794903332046913" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -158,7 +182,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="General" id="3jD-1O-dKY"/>
-                    <navigationItem key="navigationItem" title="Class Guide" id="2DW-Hn-Ze2"/>
+                    <navigationItem key="navigationItem" title="JHHS Class Guide" id="2DW-Hn-Ze2">
+                        <barButtonItem key="backBarButtonItem" title="Class Guide" id="ijk-4K-olq"/>
+                    </navigationItem>
                     <connections>
                         <outletCollection property="subjectCollection" destination="ZCR-e5-ZMn" collectionClass="NSMutableArray" id="wuY-26-lqe"/>
                         <outletCollection property="subjectCollection" destination="Zpv-1O-ZCg" collectionClass="NSMutableArray" id="EMt-TN-M9D"/>
@@ -172,10 +198,78 @@
             </objects>
             <point key="canvasLocation" x="-68" y="32.833583208395808"/>
         </scene>
-        <!--Item 2-->
+        <!--General Information-->
+        <scene sceneID="3J7-SX-Xea">
+            <objects>
+                <viewController title="General Information" id="dHY-zw-1Dy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gcZ-m6-bRP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ckJ-x3-5yg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wmc-MS-Wyj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-788" y="874"/>
+        </scene>
+        <!--Social Media-->
+        <scene sceneID="nG8-Cs-p5t">
+            <objects>
+                <viewController title="Social Media" id="5Oq-s4-TW6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s7N-Zq-xVD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vxB-W9-pIK">
+                                <rect key="frame" x="133" y="67" width="108" height="580"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aN-64-YaS">
+                                        <rect key="frame" x="0.0" y="0.0" width="108" height="108"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnS-Bh-LDg">
+                                        <rect key="frame" x="0.0" y="118" width="108" height="108"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFK-yJ-Hnq">
+                                        <rect key="frame" x="0.0" y="236" width="108" height="108"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYy-iH-q3I">
+                                        <rect key="frame" x="0.0" y="354" width="108" height="108"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3s-GS-S45">
+                                        <rect key="frame" x="0.0" y="472" width="108" height="108"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nyD-jy-KgI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kXj-vS-zfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119.2" y="873.91304347826099"/>
+        </scene>
+        <!--JHHS HomePage-->
+        <scene sceneID="HTZ-vh-ySy">
+            <objects>
+                <viewController title="JHHS HomePage" id="Qym-7h-qDg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xvh-up-RIS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HHv-tg-Fgf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gf2-No-zrC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="874"/>
+        </scene>
+        <!--Computers-->
         <scene sceneID="PHy-c8-sdd">
             <objects>
-                <viewController id="XDQ-nL-xVu" sceneMemberID="viewController">
+                <viewController title="Computers" id="XDQ-nL-xVu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QQY-HG-7SP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,10 +318,10 @@
             </objects>
             <point key="canvasLocation" x="622" y="-1412"/>
         </scene>
-        <!--Item 1-->
+        <!--Computers-->
         <scene sceneID="JTU-Ci-qII">
             <objects>
-                <viewController id="CA1-or-zKz" sceneMemberID="viewController">
+                <viewController title="Computers" id="CA1-or-zKz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EbA-Sm-cWx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1298,10 +1392,10 @@
             </objects>
             <point key="canvasLocation" x="2892" y="-1490.1049475262371"/>
         </scene>
-        <!--View Controller-->
+        <!--Fine Arts-->
         <scene sceneID="Tdz-tw-gDp">
             <objects>
-                <viewController id="EyO-rm-b7d" sceneMemberID="viewController">
+                <viewController title="Fine Arts" id="EyO-rm-b7d" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aOZ-1W-5cE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1359,10 +1453,10 @@
             </objects>
             <point key="canvasLocation" x="2000.8" y="-606.74662668665667"/>
         </scene>
-        <!--View Controller-->
+        <!--Consumer ED-->
         <scene sceneID="7aA-s6-tsK">
             <objects>
-                <viewController id="zer-Am-D4b" sceneMemberID="viewController">
+                <viewController title="Consumer ED" id="zer-Am-D4b" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dr2-JL-Mwp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1735,10 +1829,10 @@
             </objects>
             <point key="canvasLocation" x="2692" y="1042.128935532234"/>
         </scene>
-        <!--View Controller-->
+        <!--English-->
         <scene sceneID="kui-vP-zi9">
             <objects>
-                <viewController id="fQz-At-SaC" sceneMemberID="viewController">
+                <viewController title="English" id="fQz-At-SaC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vnu-zg-VWr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1789,10 +1883,10 @@
             </objects>
             <point key="canvasLocation" x="3630" y="-548"/>
         </scene>
-        <!--View Controller-->
+        <!--Science-->
         <scene sceneID="H4R-3A-jlj">
             <objects>
-                <viewController id="Odx-qf-9Bk" sceneMemberID="viewController">
+                <viewController title="Science" id="Odx-qf-9Bk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X0x-WU-Zuk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1817,7 +1911,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fV8-be-PDm">
                                         <rect key="frame" x="52" y="120" width="74" height="30"/>
                                         <state key="normal" title="AP Biology">
-                                            <color key="titleColor" red="0.2627450980392157" green="0.44313725490196076" blue="0.72156862745098038" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="0.17423369694610585" green="0.38382381339186089" blue="0.66067179568527923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="XfI-BX-bJQ" kind="show" id="ehL-83-KNl"/>
@@ -1886,10 +1980,10 @@
             </objects>
             <point key="canvasLocation" x="-2786" y="159"/>
         </scene>
-        <!--Item 1-->
+        <!--Fine Arts-->
         <scene sceneID="Cy4-Tm-a3i">
             <objects>
-                <viewController id="a8E-WK-Y0W" sceneMemberID="viewController">
+                <viewController title="Fine Arts" id="a8E-WK-Y0W" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gHc-IK-FYI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1928,7 +2022,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JKz-bt-aPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2786" y="-505"/>
+            <point key="canvasLocation" x="-2343" y="-482"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="M9o-Ru-hn7">
@@ -2244,7 +2338,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDh-n6-4uQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3739" y="1409"/>
+            <point key="canvasLocation" x="-4428" y="1275"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YKO-aO-qsr">
@@ -2393,23 +2487,6 @@
             </objects>
             <point key="canvasLocation" x="-1980" y="874"/>
         </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="i8i-XY-Y7C">
-            <objects>
-                <tabBarController id="ksF-kD-ZhJ" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="q47-oy-9fN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="En9-w3-ziM"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3hW-gd-OdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-260" y="785"/>
-        </scene>
         <!--Item 2-->
         <scene sceneID="5Je-ZM-R8g">
             <objects>
@@ -2488,7 +2565,4 @@
         <image name="music theory" width="624" height="584"/>
         <image name="orchestra" width="225" height="225"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="PkL-bs-a0k"/>
-    </inferredMetricsTieBreakers>
 </document>
