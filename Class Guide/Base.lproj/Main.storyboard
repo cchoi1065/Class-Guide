@@ -1432,10 +1432,10 @@
             </objects>
             <point key="canvasLocation" x="1340" y="284"/>
         </scene>
-        <!--View Controller-->
+        <!--Physical Education-->
         <scene sceneID="wGv-S7-i4Z">
             <objects>
-                <viewController id="iO3-2b-0Mi" sceneMemberID="viewController">
+                <viewController title="Physical Education" id="iO3-2b-0Mi" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xgt-QQ-8zk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1491,7 +1491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0SY-Y2-cow" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2786" y="98"/>
+            <point key="canvasLocation" x="-2073" y="201"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ruW-FW-yl8">
@@ -1930,7 +1930,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JKz-bt-aPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2343" y="-482"/>
+            <point key="canvasLocation" x="-3218" y="-632"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="M9o-Ru-hn7">
@@ -1948,7 +1948,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o70-rF-1f3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3739" y="-173"/>
+            <point key="canvasLocation" x="-4385" y="-446"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WI1-4c-1X9">
@@ -2062,7 +2062,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Php-NR-02o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2786" y="1741"/>
+            <point key="canvasLocation" x="-4538" y="1621"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="EBB-iE-3bN">
@@ -2246,7 +2246,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KDh-n6-4uQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3739" y="1409"/>
+            <point key="canvasLocation" x="-5358" y="874"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="YKO-aO-qsr">
@@ -2454,7 +2454,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="18y-Ee-TjJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2786" y="159"/>
+            <point key="canvasLocation" x="-3497" y="33"/>
         </scene>
     </scenes>
     <resources>
