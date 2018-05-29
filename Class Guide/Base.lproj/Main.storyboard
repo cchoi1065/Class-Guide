@@ -205,7 +205,18 @@
                     <view key="view" contentMode="scaleToFill" id="gcZ-m6-bRP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="txy-E9-Otx">
+                                <rect key="frame" x="67" y="269" width="240" height="216.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">In 2017, John Hersey High School ranked better than 97.8% of high schools in Illinois. It also ranked first among 6 ranked high schools in the 214 School District! The address is 1900 E Thomas St, Arlington Heights, IL 60004. The average classroom has about 21 students as of 2017. There are a total of 714 teacher in John Hersey High school. Over 85% of teacher’s have a master degree. </string>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78163788073687923" green="0.75219677880197122" blue="0.87655834441489366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ckJ-x3-5yg"/>
                     </view>
                 </viewController>
