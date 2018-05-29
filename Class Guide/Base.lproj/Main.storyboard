@@ -1155,28 +1155,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Human Physiology" translatesAutoresizingMaskIntoConstraints="NO" id="jxP-tK-yA9">
-                                <rect key="frame" x="0.0" y="427.5" width="375" height="262"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="DC1-Ol-3wJ"/>
-                                    <constraint firstAttribute="height" constant="262" id="nmo-QY-gb4"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Semesters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGC-qY-UDG">
                                 <rect key="frame" x="139" y="240" width="96" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Human Physiology" translatesAutoresizingMaskIntoConstraints="NO" id="6rM-51-nc8">
+                                <rect key="frame" x="16" y="380" width="310" height="251"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="OlS-Tz-pBr"/>
+                                    <constraint firstAttribute="width" constant="310" id="XL2-1S-8qC"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.83427189089999998" green="0.71301945980000003" blue="0.59220587650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sbp-44-7zx" firstAttribute="top" secondItem="YGC-qY-UDG" secondAttribute="bottom" constant="8" id="1Jl-j6-sZ8"/>
                             <constraint firstItem="sbp-44-7zx" firstAttribute="centerY" secondItem="Gb6-A5-GVS" secondAttribute="centerY" id="8mm-rS-v0o"/>
-                            <constraint firstItem="jxP-tK-yA9" firstAttribute="centerY" secondItem="Gb6-A5-GVS" secondAttribute="centerY" constant="225" id="LaA-fG-JfS"/>
                             <constraint firstItem="YGC-qY-UDG" firstAttribute="leading" secondItem="5lj-c9-exU" secondAttribute="leading" constant="139" id="NXo-Er-uix"/>
                             <constraint firstItem="sbp-44-7zx" firstAttribute="centerX" secondItem="Gb6-A5-GVS" secondAttribute="centerX" id="Oye-Ct-fLg"/>
-                            <constraint firstItem="jxP-tK-yA9" firstAttribute="centerX" secondItem="Gb6-A5-GVS" secondAttribute="centerX" id="b04-1M-2zX"/>
+                            <constraint firstItem="6rM-51-nc8" firstAttribute="leading" secondItem="5lj-c9-exU" secondAttribute="leading" constant="16" id="vDy-JK-xIn"/>
+                            <constraint firstItem="6rM-51-nc8" firstAttribute="top" secondItem="YGC-qY-UDG" secondAttribute="bottom" constant="119" id="zFD-JF-31g"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5lj-c9-exU"/>
                     </view>
