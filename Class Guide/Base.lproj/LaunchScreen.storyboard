@@ -19,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elective Classes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJ2-eh-yR2">
-                                <rect key="frame" x="26" y="309.5" width="323.5" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <rect key="frame" x="0.5" y="309.5" width="375.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="48"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.44299799203872681" green="0.94585567712783813" blue="0.98506313562393188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.64392651538073564" green="0.660540259952207" blue="0.73740878807106602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Pg9-5S-WOL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0PZ-Mp-1Yb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="giG-xP-sFF" secondAttribute="bottom" constant="20" id="1hz-TV-ZO3"/>
