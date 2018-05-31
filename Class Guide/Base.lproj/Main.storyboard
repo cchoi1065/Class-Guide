@@ -191,12 +191,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="txy-E9-Otx">
-                                <rect key="frame" x="67" y="269" width="240" height="216.5"/>
+                                <rect key="frame" x="16" y="167" width="343" height="332"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.96032203822384599" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.96032203822384599" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">In 2017, John Hersey High School ranked better than 97.8% of high schools in Illinois. It also ranked first among 6 ranked high schools in the 214 School District! The address is 1900 E Thomas St, Arlington Heights, IL 60004. The average classroom has about 21 students as of 2017. There are a total of 714 teacher in John Hersey High school. Over 85% of teacher’s have a master degree. </string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -206,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wmc-MS-Wyj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-788" y="874"/>
+            <point key="canvasLocation" x="-788" y="873.91304347826099"/>
         </scene>
         <!--Computers-->
         <scene sceneID="PHy-c8-sdd">
