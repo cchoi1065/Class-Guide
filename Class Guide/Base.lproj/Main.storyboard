@@ -148,28 +148,12 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.12853154021098145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NmB-Zu-6UT">
-                                <rect key="frame" x="284" y="617" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="HomePage"/>
-                                <connections>
-                                    <segue destination="Qym-7h-qDg" kind="show" id="E0l-DV-u1l"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7WN-jd-5G3">
                                 <rect key="frame" x="16" y="617" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Info"/>
                                 <connections>
                                     <segue destination="dHY-zw-1Dy" kind="show" id="hFQ-bD-2eh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXw-6K-lD1">
-                                <rect key="frame" x="166" y="617" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Social"/>
-                                <connections>
-                                    <segue destination="5Oq-s4-TW6" kind="show" id="guy-0A-KyU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -223,59 +207,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wmc-MS-Wyj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-788" y="874"/>
-        </scene>
-        <!--Social Media-->
-        <scene sceneID="nG8-Cs-p5t">
-            <objects>
-                <viewController title="Social Media" id="5Oq-s4-TW6" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s7N-Zq-xVD">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vxB-W9-pIK">
-                                <rect key="frame" x="133" y="67" width="108" height="580"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7aN-64-YaS">
-                                        <rect key="frame" x="0.0" y="0.0" width="108" height="108"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnS-Bh-LDg">
-                                        <rect key="frame" x="0.0" y="118" width="108" height="108"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AFK-yJ-Hnq">
-                                        <rect key="frame" x="0.0" y="236" width="108" height="108"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYy-iH-q3I">
-                                        <rect key="frame" x="0.0" y="354" width="108" height="108"/>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3s-GS-S45">
-                                        <rect key="frame" x="0.0" y="472" width="108" height="108"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="nyD-jy-KgI"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kXj-vS-zfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-119.2" y="873.91304347826099"/>
-        </scene>
-        <!--JHHS HomePage-->
-        <scene sceneID="HTZ-vh-ySy">
-            <objects>
-                <viewController title="JHHS HomePage" id="Qym-7h-qDg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Xvh-up-RIS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="HHv-tg-Fgf"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gf2-No-zrC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="622" y="874"/>
         </scene>
         <!--Computers-->
         <scene sceneID="PHy-c8-sdd">
